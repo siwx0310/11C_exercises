@@ -42,6 +42,13 @@ const person2 = {
   student: true,
 };
 
+// Not possible when using const 
+// almost always use const objects 
 person1 = person2;
 console.log(person2);
 console.log(person1);
+
+// Mutability (references and copies 4.2)
+
+
+
