@@ -69,5 +69,22 @@ function cssToRGB(css) {
 
   console.log(r, g, b);
 }
-
 cssToRGB("rgb(12, 56, 133)");
+
+// Exercise rgbToHex(rgb), return, object
+
+function greeting(r, g, b) {
+  return { r, g, b };
+}
+
+const result = greeting({ r: 1, g: 3, b: 5 });
+
+console.log(result);
+/*
+rgbToHex(186, 218, 85);
+rgbToHex(250, 202, 222);
+rgbToHex(192, 255, 238);
+rgbToHex(240, 11, 66);
+rgbToHex(192, 222, 37);
+rgbToHex(1, 2, 3);
+*/
